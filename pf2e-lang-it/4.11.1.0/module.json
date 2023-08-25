@@ -1,0 +1,63 @@
+{
+  "id": "pf2e-lang-it",
+  "title": "Italian [Pathfinder 2e]",
+  "version": "4.11.1.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.291",
+    "maximum": "10.999"
+  },
+  "authors": [
+    {
+      "name": "n1xx1"
+    }
+  ],
+  "description": "",
+  "languages": [
+    {
+      "lang": "it",
+      "name": "Italian",
+      "path": "lang/it.json"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.7.0",
+          "verified": "4.11.1"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {
+          "minimum": "2.3.1",
+          "verified": "2.3.4"
+        }
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {
+          "minimum": "1.0.0.0",
+          "verified": "1.12.6.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "module.js"
+  ],
+  "system": [
+    "pf2e"
+  ],
+  "packs": [],
+  "url": "https://github.com/n1xx1/pf2e-lang-it",
+  "manifest": "https://github.com/n1xx1/pf2e-lang-it/releases/latest/download/module.json",
+  "download": "https://github.com/n1xx1/pf2e-lang-it/releases/latest/download/module.zip"
+}
